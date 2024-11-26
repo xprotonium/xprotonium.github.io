@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;  /* Keeps scrolling enabled */
+    height: 100vh;
+    -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+    scrollbar-width: none;     /* For Firefox */
+}
+
+.container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Webkit browsers (Chrome, Safari) */
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
