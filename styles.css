@@ -26,3 +26,7 @@ section {
     align-items: center;
     scroll-snap-align: start;
 }
+
+.navbar-toggler-icon {
+    filter: invert(1) sepia(1) saturate(100%) hue-rotate(180deg);
+  }
