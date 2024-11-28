@@ -22,13 +22,29 @@
 section {
     height: 100vh;
     display: flex;
-    
     scroll-snap-align: start;
 }
 
 .title {
     margin-top: 15vh;
     margin-left: 5vw;
+}
+
+.titleAboutMe {
+    margin-left: 5vw;
+}
+
+.titleDesign {
+    margin-top: 15vh;
+}
+
+#designTitle {
+    margin-top: 15vw;
+    width: 100%;
+}
+
+.titleContacts {
+    margin: auto;
 }
 
 .descriptionBox {
