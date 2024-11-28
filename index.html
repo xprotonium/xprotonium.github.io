@@ -16,15 +16,16 @@
 
   <body style="background-color: black">
     <header>
-      <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+      <nav class="navbar navbar-expand-sm fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand d-flex align-items-center" href="#"
             ><img
               src="src/xprotoniumWhite.png"
               alt="xprotonium logo"
-              height="28p"
+              height="28px"
           /></a>
           <button
+            id="navButtonHamburger"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -37,9 +38,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="d-flex ms-auto">
-              <a class="btn btn-dark" href="#aboutMe">About Me</a>
-              <a class="btn btn-dark" href="#projects">Projects</a>
-              <a class="btn btn-dark" href="#contacts">Contacts</a>
+              <a id="navButton" class="btn ms-3" href="#aboutMe">About Me</a>
+              <a id="navButton" class="btn ms-3" href="#projects">Projects</a>
+              <a id="navButton" class="btn ms-3" href="#contacts">Contacts</a>
             </div>
           </div>
         </div>

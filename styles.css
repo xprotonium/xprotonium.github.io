@@ -34,12 +34,9 @@ section {
     margin-left: 5vw;
 }
 
-.titleDesign {
-    margin-top: 15vh;
-}
-
 #designTitle {
     margin-top: 15vw;
+    margin-bottom: 25px;
     width: 100%;
 }
 
@@ -54,4 +51,22 @@ section {
 
 .navbar-toggler-icon {
     filter: invert(1) sepia(1) saturate(100%) hue-rotate(180deg);
-  }
+}
+
+.navbar {
+    background-color: #000;
+    border: 2px solid white; /* Defines the border width, style, and color */
+}
+
+#navButton {
+    color: white;
+    border: 2px solid;
+    border-radius: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navButtonHamburger {
+    color: white;
+    border: 2px solid;
+    border-radius: 0;
+}
