@@ -7,6 +7,15 @@
     color: white;
 }
 
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;  /* Keeps scrolling enabled */
