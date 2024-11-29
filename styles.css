@@ -7,6 +7,10 @@
     color: white;
 }
 
+body {
+    background-color: black;
+}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -44,7 +48,7 @@ section {
 }
 
 #designTitle {
-    margin-top: 20vw;
+    margin-top: 25vh;
     margin-bottom: 25px;
     width: 100%;
 }
@@ -79,3 +83,10 @@ section {
     border: 2px solid;
     border-radius: 0;
 }
+
+.socialLinks {
+    display: flex; /* Use Flexbox for better layout control */
+    justify-content: center; /* Centers items horizontally */
+    gap: 10px; /* Adds space between icons (optional) */
+    margin-top: 5px; /* Adds spacing above the icons (optional) */
+  }
