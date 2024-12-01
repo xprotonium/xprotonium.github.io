@@ -40,7 +40,6 @@ section {
 
 .title {
     margin-top: 15vh;
-    margin-left: 5vw;
 }
 
 .titleAboutMe {
@@ -89,4 +88,27 @@ section {
     justify-content: center; /* Centers items horizontally */
     gap: 10px; /* Adds space between icons (optional) */
     margin-top: 5px; /* Adds spacing above the icons (optional) */
-  }
+}
+
+#projectsBox {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white solid 2px;
+}
+
+#projectNavButtonLeft {
+    height: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+}
+
+#projectNavButtonRight {
+    height: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+}
