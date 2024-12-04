@@ -3,7 +3,7 @@
   "short_name": "xprotonium",
   "icons": [
     {
-      "src": "/src/icons/favicons/w web-app-manifest-192x192.png",
+      "src": "/src/icons/favicons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
