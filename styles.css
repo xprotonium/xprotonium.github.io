@@ -69,14 +69,14 @@ section {
     border: 2px solid white; /* Defines the border width, style, and color */
 }
 
-#navButton {
+.nav-button {
     color: white;
     border: 2px solid;
     border-radius: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
-#navButtonHamburger {
+.nav-button-hamburger {
     color: white;
     border: 2px solid;
     border-radius: 0;
@@ -102,12 +102,12 @@ section {
     height: 100%;
     color: black;
     background-color: white;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 #projectNavButtonRight {
     height: 100%;
     color: black;
     background-color: white;
-    border-radius: 0px;
+    border-radius: 0;
 }
