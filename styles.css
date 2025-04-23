@@ -112,8 +112,10 @@ section {
     border-radius: 0;
 }
 
-.projectCard {
-    padding: 16%
+.projectsBox {
+    height: 75%;
+    width: 75%;
+    padding: 16%;
 }
 
 .cardTitle {
