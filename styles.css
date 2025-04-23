@@ -89,7 +89,7 @@ section {
     margin-top: 5px; /* Adds spacing above the icons (optional) */
 }
 
-#projectsBox {
+#projectsViewer {
     height: 50vh;
     width: 100%;
     display: flex;
@@ -110,4 +110,26 @@ section {
     color: black;
     background-color: white;
     border-radius: 0;
+}
+
+.projectCard {
+    padding: 16%
+}
+
+.cardTitle {
+    color: white;
+    font: bold 20px 'Courier New', Courier, monospace;
+}
+
+.cardLink {
+    color: white;
+    font: bold 15px 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.cardLink:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
